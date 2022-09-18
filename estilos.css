@@ -566,8 +566,9 @@ footer ul a img {
     "header   navbar  navbar"  60px
     "main   main    main"  auto
     "footer   footer  footer"   40px /
-     400px    auto  200px;
+     400px    auto  300px;
   }
+}
 
   @media (min-width: 1200px) {
     .contenedor{
