@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Charlotte La Bouff</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+   <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+</head>
+
+<body class="contenedor">
+
+  <header class="header">  
+
+    <div>
+        <img class="logo" src="imagenes/logo_glam.png" alt="logo">
+    </div>
+
+  </header> 
+
+  <nav class="navbar" id="navegador"> 
+     <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+      <ul>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="consejos.html">Consejos</a></li>
+      </ul>
+  </nav> 
+
+  <section class="main">
+          <article> 
+
+            <div class="slider">
+              <img src="imagenes/slider1-copia2.jpg">
+            </div>
+
+         </article> 
+           
+         <article id="contenedor2">
+              
+                    <div class="charlottepng">
+                      <img class="png" src="imagenes/sobre.charlotte3.png">
+                    </div>
+                
+
+                    <div class="info">
+                          <h1>Sobre Charlotte</h1>
+                          <p class="texto1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    </div>
+             
+            
+         </article>
+  </section>
+  
+
+  <footer class="footer">  
+          <div>
+            <p>Abril Berón</p>  
+          </div>
+            
+        <ul class="redes">
+            <a href="#"><img src="imagenes/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="imagenes/twitter.png" alt="Twitter"></a>
+        </ul>
+ </footer>
+
+</body>
+
+<script type="text/javascript">
+    function myFunction(){
+        let x = document.getElementById("navegador");
+        if (x.className !== "navbar responsive") {
+            x.className = "navbar responsive";
+        } else {
+            x.className = "navbar";
+        }
+    }
+</script>
+
+</html>
